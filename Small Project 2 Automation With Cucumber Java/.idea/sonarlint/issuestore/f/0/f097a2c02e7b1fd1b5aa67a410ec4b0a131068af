@@ -1,0 +1,10 @@
+
+p	java:S116"TRename this field "MyAccount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÁŠÛ8ò«¼ù/
+@
+java:S3010"#Remove this assignment of "driver".(ÁÜÑ¥8­¼ù/
+R
+java:S2209"5Change this instance-reference to a static reference.(ÁÜÑ¥8Ü­¼ù/
+j	java:S1003"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÄ£8ª®¼ù/
+G
+java:S1068"*Remove this unused "driver" private field.(ëÇ×8º®¼ù/
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(«¥ığ8É®¼ù/

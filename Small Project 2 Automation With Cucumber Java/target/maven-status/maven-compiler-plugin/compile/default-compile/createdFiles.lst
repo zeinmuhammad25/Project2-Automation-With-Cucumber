@@ -1,0 +1,5 @@
+pageObject\BookWithLogin.class
+pageObject\BookWithoutLogin.class
+pageObject\MyAccount.class
+pageObject\HomePage.class
+pageObject\LoginPage.class

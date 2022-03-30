@@ -1,0 +1,8 @@
+step_definitions\Hooks.class
+step_definitions\RunCukesTest.class
+step_definitions\featureHomePage.class
+step_definitions\featureBookWithoutLogin.class
+step_definitions\featureMyAccount.class
+step_definitions\featureBookWithLogin.class
+org\example\AppTest.class
+step_definitions\featureLogin.class

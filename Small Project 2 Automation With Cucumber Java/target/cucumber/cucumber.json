@@ -1,0 +1,658 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 30677101600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Make sure button home clickable and link to next page",
+        "description": "",
+        "id": "home-page;make-sure-button-home-clickable-and-link-to-next-page",
+        "after": [
+          {
+            "result": {
+              "duration": 9751809600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4178155300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User open the home page",
+            "match": {
+              "location": "featureHomePage.verifyLoginHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2283343400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click button nav toggle",
+            "match": {
+              "location": "featureHomePage.ClickButtonNav()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1137713700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click button home",
+            "match": {
+              "location": "featureHomePage.ClickButtonHome()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136807800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User can see the home screen",
+            "match": {
+              "location": "featureHomePage.displayHome()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 18325373800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Make sure button interior clickable and link to next page",
+        "description": "",
+        "id": "home-page;make-sure-button-interior-clickable-and-link-to-next-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1232271700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 128627000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User open the home page",
+            "match": {
+              "location": "featureHomePage.verifyLoginHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1272834300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click button nav toggle",
+            "match": {
+              "location": "featureHomePage.ClickButtonNav()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164590600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click button interior",
+            "match": {
+              "location": "featureHomePage.ClickButtonInterior()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 231516200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User can see the interior screen",
+            "match": {
+              "location": "featureHomePage.displayInterior()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11259397400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Make sure button amenities clickable and link to next page",
+        "description": "",
+        "id": "home-page;make-sure-button-amenities-clickable-and-link-to-next-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1560740300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 130834500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User open the home page",
+            "match": {
+              "location": "featureHomePage.verifyLoginHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1257998700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click button nav toggle",
+            "match": {
+              "location": "featureHomePage.ClickButtonNav()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158768500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User click button amenities",
+            "match": {
+              "location": "featureHomePage.ClickButtonAmenities()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161116400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User can see the amenities screen",
+            "match": {
+              "location": "featureHomePage.verifyDisplayAmenities()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9892996100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Make sure button rooms clickable and link to next page",
+        "description": "",
+        "id": "home-page;make-sure-button-rooms-clickable-and-link-to-next-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1409807600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 136464100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User open the home page",
+            "match": {
+              "location": "featureHomePage.verifyLoginHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1359987500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User click button nav toggle",
+            "match": {
+              "location": "featureHomePage.ClickButtonNav()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123813400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click button rooms",
+            "match": {
+              "location": "featureHomePage.ClickButtonRooms()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 242535400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User can see the rooms screen",
+            "match": {
+              "location": "featureHomePage.verifyDisplayOurRooms()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11906446500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Make sure button testimonials clickable and link to next page",
+        "description": "",
+        "id": "home-page;make-sure-button-testimonials-clickable-and-link-to-next-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1346211300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 129556300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User open the home page",
+            "match": {
+              "location": "featureHomePage.verifyLoginHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1331540800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User click button nav toggle",
+            "match": {
+              "location": "featureHomePage.ClickButtonNav()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120049300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User click button testimonials",
+            "match": {
+              "location": "featureHomePage.ClickButtonTestimonial()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 314781700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User can see the testimonials screen",
+            "match": {
+              "location": "featureHomePage.verifyDisplayTestimonial()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 18808284800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Make sure button legal notice clickable and link to next page",
+        "description": "",
+        "id": "home-page;make-sure-button-legal-notice-clickable-and-link-to-next-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1289537300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 477116600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User open the home page",
+            "match": {
+              "location": "featureHomePage.verifyLoginHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1311408400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User click button nav toggle",
+            "match": {
+              "location": "featureHomePage.ClickButtonNav()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1003679900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User click button legal notice",
+            "match": {
+              "location": "featureHomePage.ClickButtonLegal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103103600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User can see the legal notice screen",
+            "match": {
+              "location": "featureHomePage.verifyDisplayLegal()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17049826200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Make sure button about us clickable and link to next page",
+        "description": "",
+        "id": "home-page;make-sure-button-about-us-clickable-and-link-to-next-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1150697100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 93864200,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User open the home page",
+            "match": {
+              "location": "featureHomePage.verifyLoginHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1261821700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User click button nav toggle",
+            "match": {
+              "location": "featureHomePage.ClickButtonNav()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4293875600,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User click button about us",
+            "match": {
+              "location": "featureHomePage.clickAboutUs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63166100,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User can see the about us screen",
+            "match": {
+              "location": "featureHomePage.verifyAboutUs()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11691108500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Make sure button contact clickable and link to next page",
+        "description": "",
+        "id": "home-page;make-sure-button-contact-clickable-and-link-to-next-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1199898500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 141871500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User open the home page",
+            "match": {
+              "location": "featureHomePage.verifyLoginHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1224664300,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User click button nav toggle",
+            "match": {
+              "location": "featureHomePage.ClickButtonNav()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3465556100,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User click button contact",
+            "match": {
+              "location": "featureHomePage.clickContactUs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87009500,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User can see the contact us screen",
+            "match": {
+              "location": "featureHomePage.verifyContactUs()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Home Page",
+    "description": "This feature will check the overall appearance of the scenario of home page",
+    "id": "home-page",
+    "keyword": "Feature",
+    "uri": "features/HomePage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@HomePage"
+      }
+    ]
+  }
+]

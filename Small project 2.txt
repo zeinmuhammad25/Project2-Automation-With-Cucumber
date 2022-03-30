@@ -1,0 +1,32 @@
+
+    When User input "cilsy" as company and "Jl. medan percut" as address and "20233" as postal code and "medan" as city and ""
+
+
+order history ketika telah melakukan pembayaran
+
+
+bug = - mengerrorkan page input addres yang tampilan city,state dan country karena kondisi urutan terbalik (sudah)
+- tidak bisa mensubmit review (sudah)
+- klik book now tergeneret ke tab baru (sudah)
+-(penting) klik enter pada ngisi personal info pada proses payment dan pada kondisi belum melakukan login saat payment terlink ke halaman login 
+
+
+
+| company | address | postalCode | city |
+//form[@id='add_address']/div[5]/input[@class='is_required validate form-control']
+
+https://id.bitdegree.org/tutorial/selenium-tutorial/
+https://zety.com/resume-templates
+https://zety.com/resume-templates
+
+//div[@class='col-sm-12 col-xs-12']/div[2]/a
+
+data studio google
+
+
+tase case =
+- (kondisi sudah melakukan login)ngebook kamar sebelum mengisi address
+- (kondisi belum mengisi address)featur ngebook now
+	- tampilan setelah book now 
+- tampilan order history setelah melakukan transaksi
+- tampilan my credit slip setelah melakukan transaksi
